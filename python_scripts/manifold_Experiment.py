@@ -99,7 +99,7 @@ for channel in unique_Channels:
     curves_channels_phase_time.append([temp_curve_phase_time_x,temp_curve_phase_time_y,temp_curve_phase_time_z])
     curves_channels_phase_freq.append([temp_curve_phase_freq_x,temp_curve_phase_freq_y,temp_curve_phase_freq_z])
 
-'''
+
 print("Curves computed ", len(curves_channels_phase_time))
 for curve in curves_channels_phase_time:
     fig = plt.figure()
@@ -107,7 +107,7 @@ for curve in curves_channels_phase_time:
     # Creating plot
     ax.plot(np.array(curve[0]).flatten(), np.array(curve[1]).flatten(), np.array(curve[2]).flatten()) # the full spiral
     plt.show()
-'''
+
 
 
 r1 = 1
